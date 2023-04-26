@@ -1,0 +1,30 @@
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles-principal{
+    width: 50%;
+
+}
+
+.articles-secondary{
+    width: 50%;
+
+}
+
+
+@media screen and (max-width: 568px){
+    .articles-principal{
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .articles-secondary{
+        width: 100%;
+        text-align: center;
+    }
+
+}

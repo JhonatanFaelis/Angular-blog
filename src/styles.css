@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h1::selection{
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
