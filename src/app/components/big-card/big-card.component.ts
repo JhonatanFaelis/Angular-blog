@@ -17,6 +17,10 @@ export class BigCardComponent implements OnInit {
   @Input()
   author: string ='Autor'
 
+  @Input()
+  Id: string =''
+
+
 
   constructor() { }
 

@@ -1,0 +1,44 @@
+.container_principal{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container_img{
+    margin-top: 1rem;
+}
+
+.titulo{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.descricao{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 50%;
+    margin: auto;
+}
+
+.container_textos{
+    text-align: center;
+}
+
+.voltar{
+    margin-top: 1rem;
+}
+
+.voltar a{
+    padding: 1rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
+
+.voltar a:hover{
+    background-color: blueviolet;
+}

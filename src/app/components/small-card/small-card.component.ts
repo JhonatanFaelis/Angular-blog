@@ -17,6 +17,10 @@ smallCardDescription : string = ""
 @Input()
 smallCardImg : string = ""
 
+@Input()
+Id : string = ""
+
+
   constructor() { }
 
   ngOnInit(): void {
